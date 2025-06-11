@@ -36,6 +36,7 @@
       padding: 30px 20px;
       border-radius: 12px;
       margin-bottom: 40px;
+      position: relative;
     }
 
     header h1 {
@@ -47,6 +48,17 @@
     header p {
       margin: 8px 0;
       font-size: 1.1em;
+    }
+
+    .profile-photo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
     }
 
     .contact-info {
@@ -119,12 +131,16 @@
         background: white;
         border-left: 2px solid black;
       }
+      .profile-photo {
+        display: none;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
+      <img src="profile.jpg" alt="Varun Sureshkumar" class="profile-photo">
       <h1>VARUN SURESHKUMAR</h1>
       <p>Director | Program & Release Management | Strategic Leadership</p>
       <p>MBA | SAFe Certified Agilist | PMP Certified</p>
@@ -134,136 +150,108 @@
     </header>
 
     <section class="section">
-      <h2>SUMMARY</h2>
-      <p>Strategic, results-driven Director with a robust record in program and release management across Finance, Healthcare, IT & Manufacturing. Known for aligning tech solutions with strategic business goals, delivering 98%+ release success rates, and championing CI/CD innovation. Adept at leading large cross-functional teams, mentoring future leaders, and maintaining full compliance across enterprise programs.</p>
-    </section>
+  <h2>SUMMARY</h2>
+  <p>Results-driven Program Management Director with extensive experience in delivery management and project/program management. Proven track record of leading cross-functional teams to successfully deliver complex projects in the Finance, Health Care Insurance, Corp IT & Manufacturing domains. Adept at aligning technology solutions with business objectives to enhance operational efficiency and improve customer outcomes. Strong strategic thinker with excellent stakeholder management skills, committed to driving innovation and ensuring compliance with industry regulations.</p>
+  <p>Seeking a Director / Program Manager position, where I bring my program management and operational process expertise to support the organizational mission and drive impactful solutions.</p>
+</section>
 
-    <section class="section">
-      <h2>EDUCATION</h2>
-      <div class="edu-entry">
-        <h3>MBA – University of Connecticut</h3>
-        <div class="meta">Operations & Information Management | GPA: 3.88/4.0 | 2011–2014</div>
-      </div>
-      <div class="edu-entry">
-        <h3>B.E. – Information Technology, Bharathiar University</h3>
-        <div class="meta">82% | 1999–2003 | Best Outgoing Student – IT</div>
-      </div>
-    </section>
+<section class="section">
+  <h2>EXPERIENCE</h2>
+  <div class="job-entry">
+    <h3>Program Manager – Accenture</h3>
+    <div class="meta">Feb 2025 – Present | Hartford, United States</div>
+    <ul>
+      <li>Improved transition efficiency by maintaining role consistency during re-badge from TIAA to Accenture.</li>
+    </ul>
+  </div>
+  <div class="job-entry">
+    <h3>Lead Program Manager – TIAA</h3>
+    <div class="meta">Jan 2018 – Feb 2025 | Charlotte, United States</div>
+    <ul>
+      <li>Led the release management program, achieving a 98% on-time delivery rate and enhancing client satisfaction.</li>
+      <li>Designed the "Release Management Scorecard," improving executive decision-making and operational visibility by 25%.</li>
+      <li>Acted as SME for Change Request Automation, driving CI/CD deployment and Release on Demand (SAFe).</li>
+      <li>Reported on program health and IT governance, ensured compliance for each release, and facilitated communication among stakeholders.</li>
+      <li>Addressed crises, mentored junior managers, and provided feedback to enhance change and release management processes while supporting resource management and budgeting.</li>
+      <li>Collaborated with product and engineering teams to establish a structured governance model.</li>
+      <li>Defined Project Scope and Objectives, collaborated to gather Input & developed Budget Forecasts.</li>
+      <li>Won several awards at TIAA in this role.</li>
+    </ul>
+  </div>
+  <div class="job-entry">
+    <h3>Senior Program Manager – NTT DATA</h3>
+    <div class="meta">Jan 2012 – Jan 2018 | Boston, United States</div>
+    <ul>
+      <li>Managed delivery of $20+ million accounts for financial, health care & insurance clients at NTT Data.</li>
+      <li>Develop and execute program strategies that align with organizational goals in the Health Care & Finance domains.</li>
+      <li>Lead multiple programs and projects, overseeing all aspects from initiation through delivery, ensuring adherence to timelines, budgets, and quality standards.</li>
+      <li>Mentor and lead cross-functional teams, promoting a culture of continuous improvement and professional development.</li>
+      <li>Ensure all programs comply with industry regulations and standards, implementing quality assurance processes.</li>
+      <li>Drive innovation in program methodologies and processes, leveraging emerging technologies and best practices.</li>
+    </ul>
+  </div>
+  <div class="job-entry">
+    <h3>Project Manager & Project Leader – KEANE</h3>
+    <div class="meta">Jul 2007 – Jan 2012 | Boston, United States</div>
+    <ul>
+      <li>Managed multiple programs in Health Care and Corporate IT.</li>
+      <li>Drafted and reviewed SOWs, conducted requirements analysis, created traceability matrices, and oversaw project implementation with risk analysis and mitigation.</li>
+      <li>Handled negotiations, escalations, and problem-solving.</li>
+      <li>Developed WBS, allocated resources, and managed teams while ensuring effective time management and project planning using MS Project.</li>
+      <li>Designed system architectures with MS Visio 2010 and executed procedures and queries using MS SQL Server 2000–05.</li>
+      <li>Implemented change management procedures.</li>
+    </ul>
+  </div>
+  <div class="job-entry">
+    <h3>Team Leader, Sr. SW Engineer & SW Engineer – Caritor Solutions India Pvt</h3>
+    <div class="meta">Jan 2004 – Jun 2007 | Morristown, United States</div>
+    <ul>
+      <li>Led the development of PLM & PDM systems for Honeywell Specialty Materials, utilizing Enovia MatrixOne (eMatrix 10.5).</li>
+      <li>Responsibilities included requirements analysis, design documentation reviews, unit testing oversight, source code reviews, and deployment to live servers.</li>
+      <li>Additionally, managed onsite support for several mission-critical applications.</li>
+    </ul>
+  </div>
+  <div class="job-entry">
+    <h3>Software Engineer – IT Solutions</h3>
+    <div class="meta">Sep 2003 – Jan 2004 | Tallahassee, United States</div>
+    <ul>
+      <li>Implemented EJB 2.0 to develop a Benefits Recovery System for the DCF Tallahassee, Florida.</li>
+      <li>Responsibilities included requirements analysis, design documentation, unit testing, program development, source code and peer reviews, and serving as Configuration Team Lead and Module Lead.</li>
+      <li>Managed unit testing, integration, and system testing, along with deployment to live servers.</li>
+      <li>Provided UAT Support and addressed customer changes during post-production support.</li>
+    </ul>
+  </div>
+</section>
 
-    <section class="section">
-      <h2>EXPERIENCE</h2>
-      <div class="job-entry">
-        <h3>Program Manager – Accenture</h3>
-        <div class="meta">Feb 2025 – Present | Hartford, CT</div>
-        <ul>
-          <li>Maintained role consistency during rebadge transition from TIAA, improving onboarding efficiency.</li>
-        </ul>
-      </div>
-      <div class="job-entry">
-        <h3>Lead Program Manager – TIAA</h3>
-        <div class="meta">Jan 2018 – Feb 2025 | Charlotte, NC</div>
-        <ul>
-          <li>Led release management program with 98% on-time delivery.</li>
-          <li>Designed Release Scorecard, improved executive visibility by 25%.</li>
-        </ul>
-      </div>
-      <div class="job-entry">
-        <h3>Senior Program Manager – NTT DATA</h3>
-        <div class="meta">Jan 2012 – Jan 2018 | Boston, MA</div>
-        <ul>
-          <li>Managed $20M+ portfolio in finance and healthcare sectors.</li>
-          <li>Championed regulatory compliance and innovation.</li>
-        </ul>
-      </div>
-      <div class="job-entry">
-        <h3>Project Manager & Project Leader – KEANE</h3>
-        <div class="meta">Jul 2007 – Jan 2012 | Boston, MA</div>
-        <ul>
-          <li>Led projects in healthcare and corporate IT domains, improving delivery precision.</li>
-          <li>Created SOWs, WBS, risk plans, and managed MS Project timelines.</li>
-        </ul>
-      </div>
-      <div class="job-entry">
-        <h3>Team Leader / Sr. Software Engineer – Caritor Solutions India Pvt</h3>
-        <div class="meta">Jan 2004 – Jun 2007 | Morristown, NJ</div>
-        <ul>
-          <li>Developed Honeywell’s PLM systems with Enovia MatrixOne.</li>
-          <li>Led development, testing, and production deployments for mission-critical systems.</li>
-        </ul>
-      </div>
-      <div class="job-entry">
-        <h3>Software Engineer – IT Solutions</h3>
-        <div class="meta">Sep 2003 – Jan 2004 | Tallahassee, FL</div>
-        <ul>
-          <li>Implemented EJB 2.0 systems for DCF Florida's Benefits Recovery System.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>SKILLS</h2>
-      <div class="skills-grid">
-        <div>
-          <strong>Management:</strong>
-          <div class="badge">Project Management</div>
-          <div class="badge">Strategic Thinking</div>
-          <div class="badge">Risk Management</div>
-          <div class="badge">Change Management</div>
-          <div class="badge">Scaled Agile / SAFe</div>
-          <div class="badge">Scrum of Scrums</div>
-          <div class="badge">Team Leadership</div>
-        </div>
-        <div>
-          <strong>Technical:</strong>
-          <div class="badge">Python</div>
-          <div class="badge">Java</div>
-          <div class="badge">VS Code</div>
-          <div class="badge">MS Office 365</div>
-          <div class="badge">Salesforce CRM</div>
-          <div class="badge">Heroku Cloud</div>
-          <div class="badge">Slack Integration</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>ACHIEVEMENTS</h2>
-      <ul>
-        <li>TIAA TFS CIO Technology Award – Led 200+ releases per year, 5 consecutive years</li>
-        <li>People’s Choice Awards – Dream Team, Unsung Hero, Prized Partner</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>VOLUNTEERING</h2>
-      <div class="volunteer-entry">
-        <h3>Vice Principal – Bharathi Tamil Academy</h3>
-        <div class="meta">Sep 2024 – Present | South Windsor, CT</div>
-      </div>
-      <div class="volunteer-entry">
-        <h3>Educator – Bharathi Tamil Academy</h3>
-        <div class="meta">Sep 2018 – Aug 2024 | South Windsor, CT</div>
-      </div>
-      <div class="volunteer-entry">
-        <h3>Director – Windermere Village HOA</h3>
-        <div class="meta">Jan 2024 – Present | Ellington, CT</div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>CERTIFICATIONS</h2>
-      <ul>
-        <li>PMP – PMI | Credential ID: 1399650 | Expires: Apr 2027</li>
-        <li>SAFe Certified Agilist – Scaled Agile Inc | ID: 19730325-2999</li>
-        <li>Python Programming – MITx</li>
-        <li>Computational Thinking & Data Science – MITx</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>INTERESTS</h2>
-      <p>Tennis – Competitive 4.0 level player, thriving on strategy and performance both on and off court.</p>
-    </section>
+<section class="section">
+  <h2>VOLUNTEERING</h2>
+  <div class="volunteer-entry">
+    <h3>Vice Principal – Bharathi Tamil Academy</h3>
+    <div class="meta">Sep 2024 – Present | South Windsor</div>
+    <ul>
+      <li>Dedicated to teaching the Tamil language and preserving its rich cultural heritage.</li>
+      <li>Manage operations of a school of 180 students.</li>
+    </ul>
+  </div>
+  <div class="volunteer-entry">
+    <h3>Educator – Bharathi Tamil Academy</h3>
+    <div class="meta">Sep 2018 – Aug 2024 | South Windsor</div>
+    <ul>
+      <li>Affiliated with California Tamil Academy.</li>
+      <li>Inspired students in grades 1–6 for 6 years, fostering language skills and cultural appreciation through engaging lessons and activities.</li>
+    </ul>
+  </div>
+  <div class="volunteer-entry">
+    <h3>Director – Windermere Village</h3>
+    <div class="meta">Jan 2024 – Present | Ellington</div>
+    <ul>
+      <li>Home Owner's Association for a single family home community.</li>
+      <li>Oversaw community management and operations, HOA rules and regulations.</li>
+      <li>Facilitated communication between residents and the board, organized community events, and addressed concerns promptly.</li>
+      <li>Managed budgets and financial planning, coordinated maintenance and improvement projects.</li>
+    </ul>
+  </div>
+</section>
   </div>
 </body>
 </html>
