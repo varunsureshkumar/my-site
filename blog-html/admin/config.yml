@@ -1,0 +1,20 @@
+# blog-html/admin/config.yml
+backend:
+  name: github
+  repo: varunsureshkumar/my-site
+  branch: main
+  auth_scope: repo
+  app_id: Ov23lim2rsWPh2tYbU2u
+
+media_folder: "blog-html/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "blog-html/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
